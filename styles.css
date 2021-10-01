@@ -4253,7 +4253,7 @@ fieldset:disabled .btn {
 }
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #495057;
+  color: #459e74;
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
 }
@@ -4307,6 +4307,7 @@ fieldset:disabled .btn {
   justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  height: 90px;
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -11750,7 +11751,7 @@ header.masthead {
   background: linear-gradient(
       to bottom,
       rgba(92, 77, 66, 0.8) 0%,
-      rgba(92, 77, 66, 0.8) 100%
+      rgba(70, 64, 60, 0.8) 100%
     ),
     url("crescer1222.jpg");
   background-position: center;
@@ -11901,7 +11902,7 @@ button {
 
 .counter
 {
-    background-color: #ffff;
+    background: url("tst4.png");
     text-align: center;
 }
 .employees,.customer,.design,.order
@@ -11912,7 +11913,7 @@ button {
 .counter-count
 {
     font-size: 18px;
-    background-color: #459e74;
+    background-color: #313c3f;
     border-radius: 50%;
     position: relative;
     color: #ffffff;
@@ -11930,6 +11931,31 @@ button {
 .employee-p,.customer-p,.order-p,.design-p
 {
     font-size: 24px;
-    color: #000000;
+    color: #ffffff;
     line-height: 34px;
+}
+ 
+.logocima{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  text-align: center;
+
+}
+
+.rodape{
+  color: #459e74;
+  width: justify;
+  height: justify;
+}
+
+@font-face {
+  font-family: Agrandir;
+  src: url(font/Agrandir-Regular.otf);
+}
+
+.bode{
+  font-family: Agrandir;
+  src: url(font/Agrandir-Regular.otf);
+  color: #459e74;
 }
